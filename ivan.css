@@ -55,9 +55,21 @@
     line-height: 35px;
     text-align: center;
     margin: 20px;
-    padding: 30px;
+    padding: 10px 30px;
     font-size: 50px;
     text-decoration: none;
     font-family: "Estonia";
     font-weight: bold;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+body{
+    padding-bottom: 140px;
+    background-color: black;
+}
+
+.cards{
+    overflow: hidden;
 }

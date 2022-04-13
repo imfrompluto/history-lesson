@@ -1,6 +1,9 @@
 *{
  margin: 0px   
 }
+html{
+scroll-behavior: smooth;
+}
 
 body{
     background-color: blueviolet;
@@ -78,9 +81,11 @@ a{
     transition: .2s;
     margin-bottom: 15px;
     font-size: 16px;
+    color: #5c2390;
 }
 
 a:hover{
     border: 2px solid #633d89;
+
 }
 
